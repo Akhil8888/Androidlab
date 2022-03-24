@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".realgroup">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <ImageButton
+            android:id="@+id/b6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/back"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="122dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:text="Groups"
+            android:textColor="@color/lightblue"
+            android:textSize="33dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="628dp"
+            app:srcCompat="@drawable/realgroup" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
